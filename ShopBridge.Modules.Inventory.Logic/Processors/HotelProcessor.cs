@@ -77,7 +77,7 @@ namespace ShopBridge.Modules.Inventory.Logic.Processors
                 return new Response<bool>(true);
             }
                     
-            return new Response<bool>(false, Infrastructure.Utils.Enums.ResponseCodes.BadRequest, "Failed to Update the data .");
+            return new Response<bool>(false, Infrastructure.Utils.Enums.ResponseCodes.BadRequest, "Failed to Update the data");
         }
 
     }

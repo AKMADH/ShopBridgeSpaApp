@@ -24,6 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\ConfigFile\ShopBridge.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ShopBridge.Modules.Inventory.Logic\ShopBridge.Modules.Inventory.Logic.csproj" />
   </ItemGroup>
 
