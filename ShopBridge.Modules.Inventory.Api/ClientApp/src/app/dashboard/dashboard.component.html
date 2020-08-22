@@ -1,0 +1,41 @@
+
+<div class="container">
+  
+  <button [routerLink]="['/Addhotel']" routerLinkActive="router-link-active" class="btn btn-success" style="margin-bottom:10px;">+ Add new hotel</button>
+  <table class="table table-white table-bordered" style="width: 100%;">
+    <thead>
+      <tr>
+        <th>S.no</th>
+        <th>Hotel Name</th>
+        <th>Description</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of HotelList">
+        <td>{{item.mhid}}</td>
+        <td>{{item.name  | titlecase}}</td>
+        <td>{{item.description  | titlecase}}</td>
+        <td><img src='{{item.hotelImage}}' style="width: 100px;height:100px;"></td>
+        <td>{{item.price}} ₹</td>
+        <td>
+          <button [routerLink]="['/update',item.mhid]" routerLinkActive="router-link-active" class="btn btn-primary" style="border: none;width: 70px;margin-bottom: 5px;">
+            Edit
+          </button>
+          <button class="btn btn-danger" style="border: none;width: 70px;margin-bottom: 5px;"
+                  (click)="DeleteHotelInfo(item.mhid)">
+            Delete
+          </button>
+          <button class="btn btn-warning" style="border: none;width: 70px;margin-bottom: 5px;"
+                  [routerLink]="['/hotel-detail',item.mhid]" routerLinkActive="router-link-active"
+                  type="button">
+            Details
+          </button>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>

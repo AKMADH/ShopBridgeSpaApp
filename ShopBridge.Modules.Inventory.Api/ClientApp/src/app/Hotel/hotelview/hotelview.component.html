@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let item of HotelList" style="margin: 10px;">
+      <div class="card" style="width: 18rem;">
+        <img src='{{item.hotelImage}}' class="card-img-top" src="..."
+             alt="Card image cap" style="height: 180px;">
+        <div class="card-body">
+          <h5 class="card-title">{{item.name  | titlecase}}</h5>
+          <P class="card-text"> 430 Reviews </P>
+
+          <p class="card-text">
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star "></i>
+          </p>
+          <a href="#" class="btn btn-primary">View Deals</a>
+        </div>
+      </div>
+      <!-- <img src='{{item.hotelImage}}' style="width: 250px;height:300px;">
+
+      <p>{{item.name  | titlecase}}</p>
+      <p>430 Reviews</p>
+      <p><i class="fa fa-star text-warning"></i>
+        <i class="fa fa-star text-warning"></i>
+        <i class="fa fa-star text-warning"></i>
+        <i class="fa fa-star text-warning"></i>
+      </p> -->
+      <!-- <div class="col-lg-3">
+
+      </div>
+      <div class="col-lg-3">
+
+      </div>
+      <div class="col-lg-3">
+
+      </div> -->
+    </div>
+  </div>
+</div>

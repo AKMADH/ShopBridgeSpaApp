@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D8EB3C5D-500B-41AE-9A30-BC2BCA73DC52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{977ACADB-135F-4714-AF4F-97B5E9C33647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82735C85-FC87-4048-885E-BC72D2921478}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Modules.Inventory.Logic", "ShopBridge.Modules.Inventory.Logic\ShopBridge.Modules.Inventory.Logic.csproj", "{BB062072-7856-49AA-A663-BDB5A78A8755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Modules.Inventory.DataAccess", "ShopBridge.Modules.Inventory.DataAccess\ShopBridge.Modules.Inventory.DataAccess.csproj", "{518D7EF5-5F30-48FD-8E4E-11E0CB1B73F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Infrastructure.Utils", "ShopBridge.Infrastructure.Utils\ShopBridge.Infrastructure.Utils.csproj", "{6B7C9170-A9D1-4FE8-9450-B98981742B23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Modules.Inventory.Model", "ShopBridge.Modules.Inventory.Model\ShopBridge.Modules.Inventory.Model.csproj", "{9528D96B-6DC6-47ED-A61A-F64F7358BF53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Modules.Inventory.ApiService", "ShopBridge.Modules.Inventory.ApiService\ShopBridge.Modules.Inventory.ApiService.csproj", "{77CEDF25-014D-45DB-A1E8-9A2A663E60F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestCase", "UnitTestCase", "{146C807B-558B-4000-8AFD-6FD54B59E62B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.UnitTest", "ShopBridge.UnitTest\ShopBridge.UnitTest.csproj", "{B971118C-9D3F-4E77-8A8F-70647B81581B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Modules.Inventory.Api", "ShopBridge.Modules.Inventory.Api\ShopBridge.Modules.Inventory.Api.csproj", "{6441DD2E-A93D-428A-92B0-9ADC1407E9E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB062072-7856-49AA-A663-BDB5A78A8755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB062072-7856-49AA-A663-BDB5A78A8755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB062072-7856-49AA-A663-BDB5A78A8755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB062072-7856-49AA-A663-BDB5A78A8755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518D7EF5-5F30-48FD-8E4E-11E0CB1B73F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518D7EF5-5F30-48FD-8E4E-11E0CB1B73F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518D7EF5-5F30-48FD-8E4E-11E0CB1B73F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518D7EF5-5F30-48FD-8E4E-11E0CB1B73F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7C9170-A9D1-4FE8-9450-B98981742B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7C9170-A9D1-4FE8-9450-B98981742B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7C9170-A9D1-4FE8-9450-B98981742B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7C9170-A9D1-4FE8-9450-B98981742B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9528D96B-6DC6-47ED-A61A-F64F7358BF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9528D96B-6DC6-47ED-A61A-F64F7358BF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9528D96B-6DC6-47ED-A61A-F64F7358BF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9528D96B-6DC6-47ED-A61A-F64F7358BF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CEDF25-014D-45DB-A1E8-9A2A663E60F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CEDF25-014D-45DB-A1E8-9A2A663E60F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CEDF25-014D-45DB-A1E8-9A2A663E60F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CEDF25-014D-45DB-A1E8-9A2A663E60F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B971118C-9D3F-4E77-8A8F-70647B81581B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B971118C-9D3F-4E77-8A8F-70647B81581B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B971118C-9D3F-4E77-8A8F-70647B81581B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B971118C-9D3F-4E77-8A8F-70647B81581B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6441DD2E-A93D-428A-92B0-9ADC1407E9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6441DD2E-A93D-428A-92B0-9ADC1407E9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6441DD2E-A93D-428A-92B0-9ADC1407E9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6441DD2E-A93D-428A-92B0-9ADC1407E9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82735C85-FC87-4048-885E-BC72D2921478} = {977ACADB-135F-4714-AF4F-97B5E9C33647}
+		{BB062072-7856-49AA-A663-BDB5A78A8755} = {82735C85-FC87-4048-885E-BC72D2921478}
+		{518D7EF5-5F30-48FD-8E4E-11E0CB1B73F9} = {82735C85-FC87-4048-885E-BC72D2921478}
+		{6B7C9170-A9D1-4FE8-9450-B98981742B23} = {D8EB3C5D-500B-41AE-9A30-BC2BCA73DC52}
+		{9528D96B-6DC6-47ED-A61A-F64F7358BF53} = {82735C85-FC87-4048-885E-BC72D2921478}
+		{77CEDF25-014D-45DB-A1E8-9A2A663E60F0} = {82735C85-FC87-4048-885E-BC72D2921478}
+		{B971118C-9D3F-4E77-8A8F-70647B81581B} = {146C807B-558B-4000-8AFD-6FD54B59E62B}
+		{6441DD2E-A93D-428A-92B0-9ADC1407E9E0} = {82735C85-FC87-4048-885E-BC72D2921478}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB8E1D57-0718-4971-A4DF-07B27120A569}
+	EndGlobalSection
+EndGlobal
