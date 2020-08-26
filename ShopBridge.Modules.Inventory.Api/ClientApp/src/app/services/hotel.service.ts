@@ -49,7 +49,7 @@ export class HotelService {
   }
   //Api calls to delete hotel based on Mhid
   DeleteHotelDetails(Mhid: any): Observable<Response> {
-    return this.http.delete(this.ApiUrl + Mhid).
+    return this.http.delete(this.ApiUrl +'api/Hotel/'+ Mhid).
       pipe(
         map((data: Response) => {
           return data;
